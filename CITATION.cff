@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use these datasets in an article, report, or school presentation, please cite Meritkoll.se as below."
+title: "Meritkoll Swedish University Admissions & Gy25 Data (2026): UHR HT 2026 Urval 2 Cutoffs and Gy25 vs. Gy11 Meritvärde Scenarios"
+type: dataset
+version: "2026.11"
+date-released: "2026-11-23"
+license: CC-BY-4.0
+url: "https://meritkoll.se/rapporter/"
+authors:
+  - name: "Meritkoll.se"
+    website: "https://meritkoll.se/"
+    email: "kontakt@meritkoll.se"
+keywords:
+  - sweden
+  - uhr
+  - antagningspoang
+  - meritvarde
+  - gy25
+  - gy11
+  - hogskoleprovet
+  - higher-education
+  - skolverket
+  - open-data
+abstract: "Two open CSV datasets covering Swedish university admissions: official UHR Urval 2 HT 2026 vs. HT 2025 grade and Högskoleprovet cutoffs (BI, BII, HP) across 28 competitive full-time campus programs, plus 16 deterministic Gy25 vs. Gy11 meritvärde scenarios for NA, SA, EK, and TE based on Skolverket and Antagning.se rules."
