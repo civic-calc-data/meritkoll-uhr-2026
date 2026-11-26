@@ -1,17 +1,17 @@
 program_kod,program,scenario,poang_totalt,poang_flerniva,gy11_jamforelsetal,gy25_jamforelsetal,skillnad_jamforelsetal,meritpoang,gy11_meritvarde,gy25_meritvarde
-NA,Naturvetenskapsprogrammet (NA),Stigande form (C -> B -> A),2400,1750,17.45,19.32,1.87,2.50,19.95,21.82
-NA,Naturvetenskapsprogrammet (NA),Stark uppryckning (D -> C -> A),2400,1750,16.46,19.32,2.86,2.50,18.96,21.82
-NA,Naturvetenskapsprogrammet (NA),Jämn prestationsnivå (B -> B),2400,1750,17.50,17.50,0.00,2.50,20.00,20.00
-NA,Naturvetenskapsprogrammet (NA),Svagare slutnivå (A -> B -> C),2400,1750,17.55,15.68,-1.87,2.50,20.05,18.18
-SA,Samhällsvetenskapsprogrammet (SA),Stigande form (C -> B -> A),2400,1600,17.50,19.17,1.67,2.50,20.00,21.67
-SA,Samhällsvetenskapsprogrammet (SA),Stark uppryckning (D -> C -> A),2400,1600,16.56,19.17,2.61,2.50,19.06,21.67
-SA,Samhällsvetenskapsprogrammet (SA),Jämn prestationsnivå (B -> B),2400,1600,17.50,17.50,0.00,2.50,20.00,20.00
-SA,Samhällsvetenskapsprogrammet (SA),Svagare slutnivå (A -> B -> C),2400,1600,17.50,15.83,-1.67,2.50,20.00,18.33
+NA,Naturvetenskapsprogrammet (NA),Stigande form (C -> B -> A),2400,1850,17.45,19.43,1.98,2.50,19.95,21.93
+NA,Naturvetenskapsprogrammet (NA),Stark uppryckning (D -> C -> A),2400,1850,16.35,19.43,3.08,2.50,18.85,21.93
+NA,Naturvetenskapsprogrammet (NA),Jämn prestationsnivå (B -> B),2400,1850,17.50,17.50,0.00,2.50,20.00,20.00
+NA,Naturvetenskapsprogrammet (NA),Svagare slutnivå (A -> B -> C),2400,1850,17.55,15.57,-1.98,2.50,20.05,18.07
+SA,Samhällsvetenskapsprogrammet (SA),Stigande form (C -> B -> A),2400,1700,17.50,19.27,1.77,2.50,20.00,21.77
+SA,Samhällsvetenskapsprogrammet (SA),Stark uppryckning (D -> C -> A),2400,1700,16.46,19.27,2.81,2.50,18.96,21.77
+SA,Samhällsvetenskapsprogrammet (SA),Jämn prestationsnivå (B -> B),2400,1700,17.50,17.50,0.00,2.50,20.00,20.00
+SA,Samhällsvetenskapsprogrammet (SA),Svagare slutnivå (A -> B -> C),2400,1700,17.50,15.73,-1.77,2.50,20.00,18.23
 EK,Ekonomiprogrammet (EK),Stigande form (C -> B -> A),2400,1500,17.50,19.06,1.56,2.50,20.00,21.56
 EK,Ekonomiprogrammet (EK),Stark uppryckning (D -> C -> A),2400,1500,16.67,19.06,2.39,2.50,19.17,21.56
 EK,Ekonomiprogrammet (EK),Jämn prestationsnivå (B -> B),2400,1500,17.50,17.50,0.00,2.50,20.00,20.00
 EK,Ekonomiprogrammet (EK),Svagare slutnivå (A -> B -> C),2400,1500,17.50,15.94,-1.56,2.50,20.00,18.44
-TE,Teknikprogrammet (TE),Stigande form (C -> B -> A),2400,1600,17.40,19.17,1.77,2.00,19.40,21.17
-TE,Teknikprogrammet (TE),Stark uppryckning (D -> C -> A),2400,1600,16.46,19.17,2.71,2.00,18.46,21.17
-TE,Teknikprogrammet (TE),Jämn prestationsnivå (B -> B),2400,1600,17.50,17.50,0.00,2.00,19.50,19.50
-TE,Teknikprogrammet (TE),Svagare slutnivå (A -> B -> C),2400,1600,17.60,15.83,-1.77,2.00,19.60,17.83
+TE,Teknikprogrammet (TE),Stigande form (C -> B -> A),2400,1700,17.40,19.27,1.87,2.00,19.40,21.27
+TE,Teknikprogrammet (TE),Stark uppryckning (D -> C -> A),2400,1700,16.35,19.27,2.92,2.00,18.35,21.27
+TE,Teknikprogrammet (TE),Jämn prestationsnivå (B -> B),2400,1700,17.50,17.50,0.00,2.00,19.50,19.50
+TE,Teknikprogrammet (TE),Svagare slutnivå (A -> B -> C),2400,1700,17.60,15.73,-1.87,2.00,19.60,17.73
