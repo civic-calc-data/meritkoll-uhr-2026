@@ -11,7 +11,7 @@ Det här arkivet samlar två öppna CSV-filer från [Meritkoll.se](https://merit
 - **Högsta gränser HT 2026 (`antagningspoang-topp.csv`, 28 program):** KTH Civilingenjör teknisk fysik toppar direktgruppen BI på `22,40` (HP `1,80`), medan Karolinska institutets läkarprogram har urvalets högsta BII-gräns på `22,46` (BI `22,29`).
 - **Största lyften i urvalet från HT 2025:** Socionomprogrammet steg med `+0,99` i BI vid Stockholms universitet (`17,66` till `18,65`), `+0,83` i Uppsala (`19,48` till `20,31`) och `+0,79` i Lund (`19,11` till `19,90`).
 - **BI mot BII går åt två håll:** På samtliga sju läkarprogram och fem psykologprogram i filen låg BII högre än BI. På samtliga fyra socionomprogram och på juristprogrammen i Uppsala, Stockholm och Lund låg BII i stället lägre än BI.
-- **Gy25 svänger upp till +2,86 eller -1,87 poäng (`gy25-vs-gy11-scenarier.csv`, 16 scenarier):** På Naturvetenskapsprogrammet (NA), där `1 750` av `2 400` examenspoäng ligger i flernivåämnen, lyfter en stark uppryckning (`D -> C -> A`) meritvärdet från `18,96` i Gy11 till `21,82` i Gy25 (`+2,86`), medan en nedgång (`A -> B -> C`) sänker det från `20,05` till `18,18` (`-1,87`).
+- **Gy25 svänger upp till +3,08 eller -1,98 poäng (`gy25-vs-gy11-scenarier.csv`, 16 scenarier):** På Naturvetenskapsprogrammet (NA), där `1 850` av `2 400` examenspoäng ligger i flernivåämnen, lyfter en stark uppryckning (`D -> C -> A`) meritvärdet från `18,85` i Gy11 till `21,93` i Gy25 (`+3,08`), medan en nedgång (`A -> B -> C`) sänker det från `20,05` till `18,07` (`-1,98`).
 
 Använd de öppna verktygen på [meritkoll.se](https://meritkoll.se/), [Högskoleprovet normering](https://meritkoll.se/hogskoleprovet-normering/) samt gratis inbäddningsbar gymnasieräknare på [meritkoll.se/embed/gymnasiet/](https://meritkoll.se/embed/gymnasiet/).
 
@@ -38,7 +38,7 @@ Selected highlights from [`data/antagningspoang-topp.csv`](data/antagningspoang-
 | Läkarprogrammet | Lunds universitet | `LU-80510` | 22.26 | 22.29 | 1.80 | 154 | 22.29 | 1.75 |
 | Läkarprogrammet | Uppsala universitet | `UU-P3200` | 22.19 | 22.20 | 1.75 | 135 | 22.08 | 1.75 |
 | Psykologprogrammet | Lunds universitet | `LU-80438` | 21.98 | 22.01 | 1.70 | 50 | 21.88 | 1.65 |
-| Läkarprogrammet | Göteborgs universitet | `GU-01001` | 21.88 | 22.01 | 1.70 | 131 | 21.70 | 1.65 |
+| Läkarprogrammet | Göteborgs universitet | `GU-01001` | 21.88 | 22.01 | 1.70 | 190 | 21.70 | 1.65 |
 | Juristprogrammet | Lunds universitet | `LU-80300` | 21.82 | 21.80 | 1.60 | 190 | 21.77 | 1.55 |
 | Civilingenjör industriell ekonomi | Kungl. Tekniska högskolan | `KTH-32106` | 21.82 | 21.98 | 1.80 | 190 | 21.67 | 1.70 |
 | Psykologprogrammet | Uppsala universitet | `UU-P2550` | 21.77 | 22.19 | 1.65 | 50 | 21.72 | 1.60 |
@@ -61,22 +61,22 @@ From 1 July 2025, Sweden replaced course grades (Gy11) with subject grades (Gy25
 
 | Code | Program | Multi-level credits | Scenario | Gy11 GPA | Gy25 GPA | Diff | Merit pts | Gy11 total | Gy25 total |
 |---|---|---:|---|---:|---:|---:|---:|---:|---:|
-| `NA` | Naturvetenskapsprogrammet | 1,750 | Stigande form (`C -> B -> A`) | 17.45 | 19.32 | +1.87 | 2.50 | 19.95 | 21.82 |
-| `NA` | Naturvetenskapsprogrammet | 1,750 | Stark uppryckning (`D -> C -> A`) | 16.46 | 19.32 | +2.86 | 2.50 | 18.96 | 21.82 |
-| `NA` | Naturvetenskapsprogrammet | 1,750 | Jämn prestationsnivå (`B -> B`) | 17.50 | 17.50 | 0.00 | 2.50 | 20.00 | 20.00 |
-| `NA` | Naturvetenskapsprogrammet | 1,750 | Svagare slutnivå (`A -> B -> C`) | 17.55 | 15.68 | -1.87 | 2.50 | 20.05 | 18.18 |
-| `SA` | Samhällsvetenskapsprogrammet | 1,600 | Stigande form (`C -> B -> A`) | 17.50 | 19.17 | +1.67 | 2.50 | 20.00 | 21.67 |
-| `SA` | Samhällsvetenskapsprogrammet | 1,600 | Stark uppryckning (`D -> C -> A`) | 16.56 | 19.17 | +2.61 | 2.50 | 19.06 | 21.67 |
-| `SA` | Samhällsvetenskapsprogrammet | 1,600 | Jämn prestationsnivå (`B -> B`) | 17.50 | 17.50 | 0.00 | 2.50 | 20.00 | 20.00 |
-| `SA` | Samhällsvetenskapsprogrammet | 1,600 | Svagare slutnivå (`A -> B -> C`) | 17.50 | 15.83 | -1.67 | 2.50 | 20.00 | 18.33 |
+| `NA` | Naturvetenskapsprogrammet | 1,850 | Stigande form (`C -> B -> A`) | 17.45 | 19.43 | +1.98 | 2.50 | 19.95 | 21.93 |
+| `NA` | Naturvetenskapsprogrammet | 1,850 | Stark uppryckning (`D -> C -> A`) | 16.35 | 19.43 | +3.08 | 2.50 | 18.85 | 21.93 |
+| `NA` | Naturvetenskapsprogrammet | 1,850 | Jämn prestationsnivå (`B -> B`) | 17.50 | 17.50 | 0.00 | 2.50 | 20.00 | 20.00 |
+| `NA` | Naturvetenskapsprogrammet | 1,850 | Svagare slutnivå (`A -> B -> C`) | 17.55 | 15.57 | -1.98 | 2.50 | 20.05 | 18.07 |
+| `SA` | Samhällsvetenskapsprogrammet | 1,700 | Stigande form (`C -> B -> A`) | 17.50 | 19.27 | +1.77 | 2.50 | 20.00 | 21.77 |
+| `SA` | Samhällsvetenskapsprogrammet | 1,700 | Stark uppryckning (`D -> C -> A`) | 16.46 | 19.27 | +2.81 | 2.50 | 18.96 | 21.77 |
+| `SA` | Samhällsvetenskapsprogrammet | 1,700 | Jämn prestationsnivå (`B -> B`) | 17.50 | 17.50 | 0.00 | 2.50 | 20.00 | 20.00 |
+| `SA` | Samhällsvetenskapsprogrammet | 1,700 | Svagare slutnivå (`A -> B -> C`) | 17.50 | 15.73 | -1.77 | 2.50 | 20.00 | 18.23 |
 | `EK` | Ekonomiprogrammet | 1,500 | Stigande form (`C -> B -> A`) | 17.50 | 19.06 | +1.56 | 2.50 | 20.00 | 21.56 |
 | `EK` | Ekonomiprogrammet | 1,500 | Stark uppryckning (`D -> C -> A`) | 16.67 | 19.06 | +2.39 | 2.50 | 19.17 | 21.56 |
 | `EK` | Ekonomiprogrammet | 1,500 | Jämn prestationsnivå (`B -> B`) | 17.50 | 17.50 | 0.00 | 2.50 | 20.00 | 20.00 |
 | `EK` | Ekonomiprogrammet | 1,500 | Svagare slutnivå (`A -> B -> C`) | 17.50 | 15.94 | -1.56 | 2.50 | 20.00 | 18.44 |
-| `TE` | Teknikprogrammet | 1,600 | Stigande form (`C -> B -> A`) | 17.40 | 19.17 | +1.77 | 2.00 | 19.40 | 21.17 |
-| `TE` | Teknikprogrammet | 1,600 | Stark uppryckning (`D -> C -> A`) | 16.46 | 19.17 | +2.71 | 2.00 | 18.46 | 21.17 |
-| `TE` | Teknikprogrammet | 1,600 | Jämn prestationsnivå (`B -> B`) | 17.50 | 17.50 | 0.00 | 2.00 | 19.50 | 19.50 |
-| `TE` | Teknikprogrammet | 1,600 | Svagare slutnivå (`A -> B -> C`) | 17.60 | 15.83 | -1.77 | 2.00 | 19.60 | 17.83 |
+| `TE` | Teknikprogrammet | 1,700 | Stigande form (`C -> B -> A`) | 17.40 | 19.27 | +1.87 | 2.00 | 19.40 | 21.27 |
+| `TE` | Teknikprogrammet | 1,700 | Stark uppryckning (`D -> C -> A`) | 16.35 | 19.27 | +2.92 | 2.00 | 18.35 | 21.27 |
+| `TE` | Teknikprogrammet | 1,700 | Jämn prestationsnivå (`B -> B`) | 17.50 | 17.50 | 0.00 | 2.00 | 19.50 | 19.50 |
+| `TE` | Teknikprogrammet | 1,700 | Svagare slutnivå (`A -> B -> C`) | 17.60 | 15.73 | -1.87 | 2.00 | 19.60 | 17.73 |
 
 Note: Under Antagning.se rules, *Matematik*, *Matematik - fortsättning*, and *Matematik - fördjupning* count as three separate subjects. A failing `F` on the highest level retains the last passing grade on earlier levels.
 
@@ -104,7 +104,7 @@ Note: Under Antagning.se rules, *Matematik*, *Matematik - fortsättning*, and *M
 - `program`: Program name in Swedish.
 - `scenario`: Grade trajectory applied across multi-level subjects.
 - `poang_totalt`: Total graded exam credits included in the GPA calculation (`2400`, excluding *gymnasiearbetet*).
-- `poang_flerniva`: Credits belonging to multi-level subjects (`1750` on NA, `1600` on SA/TE, `1500` on EK).
+- `poang_flerniva`: Credits belonging to multi-level subjects (`1850` on NA, `1700` on SA/TE, `1500` on EK).
 - `gy11_jamforelsetal`: Weighted course-grade average under Gy11 (`0.00` to `20.00`).
 - `gy25_jamforelsetal`: Weighted subject-grade average under Gy25 (`0.00` to `20.00`).
 - `skillnad_jamforelsetal`: Difference `gy25_jamforelsetal - gy11_jamforelsetal`.

@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use these datasets in an article, report, or school presentation, please cite Meritkoll.se as below."
 title: "Meritkoll Swedish University Admissions & Gy25 Data (2026): UHR HT 2026 Urval 2 Cutoffs and Gy25 vs. Gy11 Meritvärde Scenarios"
 type: dataset
-version: "2026.11"
-date-released: "2026-11-23"
+version: "2026.11.1"
+date-released: "2026-11-27"
 license: CC-BY-4.0
 url: "https://meritkoll.se/rapporter/"
 authors:
